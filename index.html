@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.9.1/dist/chart.min.js"></script>
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="./styles.css">
+    <title>CurrentProgressCard</title>
+</head>
+
+<body>
+    <div class="cardPageContainer">
+        <div class="currentProgressCard">
+            <div class="currentProgressCardTitle">
+                <p>التوجه حتى اليوم</p>
+                <select class="currentProgressCardSelect" name="cars" id="cars">
+                    <option value="2022">2022</option>
+                    <option value="2023">2023</option>
+                    <option value="2023">2023</option>
+                    <option value="2024">2024</option>
+                  </select>
+            </div>
+            <div class="currentProgressChart"><canvas id="myChart" width="300" height="115"></canvas></div>
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>
